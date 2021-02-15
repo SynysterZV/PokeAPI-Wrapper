@@ -11,9 +11,7 @@ class EncounterManager extends BaseManager {
     }
 
     async fetchCondition(name) {
-        const res = await this._fetch('encounter-condition', name)
-        const condition = new EncounterCondition(this.client, res)
-        return condition
+        return await this._fetch('encounter-condition-value', name)
     }
 
     async fetchCoditionValue(name) {

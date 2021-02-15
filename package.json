@@ -1,13 +1,13 @@
 {
   "name": "pokeapi-wrapper",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A wrapper for the Pokemon API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "WTFPL",
   "dependencies": {
     "@discordjs/collection": "^0.1.6",
     "node-fetch": "^2.6.1"
