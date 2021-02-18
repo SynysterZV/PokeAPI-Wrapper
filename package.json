@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "SynysterZV",
   "license": "WTFPL",
+  "homepage": "http://adnauseam.xyz",
+  "repository":"SynysterZV/PokeAPI-Wrapper",
   "dependencies": {
     "@discordjs/collection": "^0.1.6",
     "node-fetch": "^2.6.1"
